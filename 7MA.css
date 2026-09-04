@@ -1,0 +1,22 @@
+/* FONDO DESKTOP */
+#basic-theme .mat-sidenav-container {
+    background-image: url("https://static.wixstatic.com/media/fb6145_22947865a7ed48eebf6c3a8b7f888332~mv2.png") !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+}
+
+
+/* FONDO CELULAR */
+@media (max-width: 768px) {
+
+    #basic-theme .mat-sidenav-container {
+        background-image: url("https://static.wixstatic.com/media/fb6145_97fe5bb000cb49679d861c76128d7284~mv2.png") !important;
+        background-size: cover !important;
+        background-position: center top !important;
+        background-repeat: no-repeat !important;
+        background-attachment: scroll !important;
+    }
+
+}
