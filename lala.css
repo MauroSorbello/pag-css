@@ -1,0 +1,29 @@
+/* =========================================
+   MARATÓN LALA - FONDO GENERAL
+   Tablet + PC
+   ========================================= */
+
+#basic-theme .mat-sidenav-container {
+    background-image: url("https://static.wixstatic.com/media/fb6145_5ec4ddf734994648a2ebee8ad60c90bb~mv2.png") !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+}
+
+
+/* =========================================
+   MARATÓN LALA - CELULAR
+   ========================================= */
+
+@media (max-width: 767px) {
+
+    #basic-theme .mat-sidenav-container {
+        background-image: url("https://static.wixstatic.com/media/fb6145_08107ac8b2ac4b2da57dfb6362b82e9f~mv2.png") !important;
+        background-size: cover !important;
+        background-position: center top !important;
+        background-repeat: no-repeat !important;
+        background-attachment: scroll !important;
+    }
+
+}
